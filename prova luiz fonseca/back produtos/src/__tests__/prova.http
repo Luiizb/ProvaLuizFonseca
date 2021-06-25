@@ -1,0 +1,12 @@
+###
+POST http://localhost:3000/produto/cadastrar
+Content-Type: application/json
+
+{
+    "atributo1": "Valor 1",
+    "atributo2": "Valor 2",
+    "atributo3": 3000,
+}
+
+###
+GET http://localhost:3000/produto/listar
